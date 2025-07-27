@@ -25,6 +25,15 @@ const questions = [
     ],
     correct: 2,
   },
+  {
+    title: 'Что такое Windsurf?',
+    variants: [
+      'Это хобби',
+      'Это профессия',
+      'Это стиль жизни',
+    ],
+    correct: 2,
+  },
 ];
 
 function Result({correct}) {
