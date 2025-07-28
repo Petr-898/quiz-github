@@ -85,7 +85,7 @@ const questions = [
 function Result({correct}) {
   return (
     <div className="result">
-      <img src="https://cdn-icons-png.flaticon.com/512/2278/2278992.png" />
+      <img src="https://cdn-icons-png.flaticon.com/512/2278/2278992.png" alt='Windsurfing'/>
        <h2>Вы отгадали {correct} ответ(-а; -ов) из {questions.length} </h2>
       <a href='/' className='button'>
       Попробовать снова
