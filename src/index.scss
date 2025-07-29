@@ -35,7 +35,18 @@ body {
   color: #ffffff;
   margin-top: 20px;
   cursor: pointer;
+  box-shadow: 0 4px 0 darken(#764a4f, 10%);
+  border: 1px solid darken(#a47177, 15%);
+
 }
+.button:hover {
+      transform: translateY(-2px);
+    }
+
+.button:active {
+      transform: translateY(2px);
+      box-shadow: none;
+    }
 
 .App {
   // width: 500px;
@@ -48,18 +59,30 @@ body {
   .result {
     text-align: center;
 
-    // button {
-    //   font-weight: bold;
-    //   font-family: 'Nunito', sans-serif;
-    //   border-radius: 30px;
-    //   border: 0;
-    //   padding: 15px 30px;
-    //   font-size: 20px;
-    //   background-color: darken(#ff006e, 3%);
-    //   color: #ffffff;
-    //   margin-top: 20px;
-    //   cursor: pointer;
-    // }
+    button {
+      font-weight: bold;
+      font-family: 'Nunito', sans-serif;
+      border-radius: 30px;
+      border: 0;
+      padding: 15px 30px;
+      font-size: 20px;
+      background-color: darken(#ff006e, 3%);
+      color: #ffffff;
+      margin-top: 20px;
+      cursor: pointer;
+
+      box-shadow: 0 4px 0 darken(#764a4f, 10%);
+      border: 1px solid darken(#a47177, 15%);
+
+      &:hover {
+      transform: translateY(-2px);
+    }
+
+      &:active {
+      transform: translateY(2px);
+      box-shadow: none;
+    }
+    }
 
     h2 {
       margin-bottom: 10;
